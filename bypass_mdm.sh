@@ -8,11 +8,12 @@ PURPLE='\033[1;35m'
 CYAN='\033[1;36m'
 NC='\033[0m'
 
-echo -e "${CYAN}*-------------------*---------------------*${NC}"
-echo -e "${YELLOW}* Check MDM - Skip MDM Auto for MacOS by  *${NC}"
-echo -e "${RED}*             SKIPMDM.COM                 *${NC}"
-echo -e "${RED}*            Phoenix Team                 *${NC}"
-echo -e "${CYAN}*-------------------*---------------------*${NC}"
+echo ""
+echo -e "\t${CYAN}*-------------------*--------------------*${NC}"
+echo -e "\t${CYAN}*${NC}${YELLOW} Check MDM - Skip MDM Auto for MacOS by ${NC}${CYAN}*${NC}"
+echo -e "\t${CYAN}*${NC}${RED}      SKIPMDM.COM (Phoenix Team)        ${NC}${CYAN}*${NC}"
+echo -e "\t${CYAN}*${NC}${PURPLE}         Edited by ggragham             ${NC}${CYAN}*${NC}"
+echo -e "\t${CYAN}*-------------------*--------------------*${NC}"
 echo ""
 
 PS3='Please enter your choice: '
