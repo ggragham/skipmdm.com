@@ -16,7 +16,7 @@ echo -e "\t${CYAN}*${NC}${PURPLE}         Edited by ggragham             ${NC}${
 echo -e "\t${CYAN}*-------------------*--------------------*${NC}"
 echo ""
 
-PS3='Please enter your choice: '
+PS3='> '
 options=("Autoypass on Recovery" "Check MDM Enrollment" "Reboot" "Exit")
 
 select opt in "${options[@]}"; do
@@ -93,8 +93,8 @@ select opt in "${options[@]}"; do
 		touch "$configProfilesSettingsPath/.cloudConfigRecordNotFound"
 		echo -e "${GREEN}Config profiles removed${NC}\n"
 
-		echo -e "${GREEN}-------------- Autobypass SUCCESSFULLY  --------------${NC}"
-		echo -e "${CYAN}------ Exit Terminal. Reboot Macbook and ENJOY! ------${NC}"
+		echo -e "\n\t${GREEN}-------------------- MDM Bypassed --------------------${NC}"
+		echo -e "\t${CYAN}------ Exit Terminal. Reboot Macbook and ENJOY! ------${NC}\n"
 		break
 		;;
 
