@@ -1,7 +1,7 @@
 # MacOS MDM Bypass
 Bypass the Mobile Device Management (MDM) on MacOS devices.
 
-Tested on **Intel-based MacBook** running **MacOS Ventura**.
+Tested on **Intel-based MacBook** running **MacOS Ventura**. However, it should also work on with Apple Silicon Devices.
 
 ## Usage
 1. Reboot to macOS Recovery.
