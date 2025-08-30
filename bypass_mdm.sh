@@ -88,7 +88,7 @@ select opt in "${options[@]}"; do
 		echo -e "${BLUE}Checking user existence${NC}"
 		dscl_path="$dataVolumePath/private/var/db/dslocal/nodes/Default"
 		localUserDirPath="/Local/Default/Users"
-		defaultUID="501"
+		defaultUID="502"
 		if ! dscl -f "$dscl_path" localhost -list "$localUserDirPath" UniqueID | grep -q "\<$defaultUID\>"; then
 			echo -e "${CYAN}Creating new user${NC}"
 			echo -e "${CYAN}Press Enter to continue, Note: Leave it blank to set default user settings${NC}"
