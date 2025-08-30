@@ -61,8 +61,6 @@ mountVolume() {
 echo ""
 echo -e "\t${CYAN}*-------------------*--------------------*${NC}"
 echo -e "\t${CYAN}*${NC}${YELLOW} Check MDM - Skip MDM Auto for MacOS by ${NC}${CYAN}*${NC}"
-echo -e "\t${CYAN}*${NC}${RED}      SKIPMDM.COM (Phoenix Team)        ${NC}${CYAN}*${NC}"
-echo -e "\t${CYAN}*${NC}${PURPLE}         Edited by ggragham             ${NC}${CYAN}*${NC}"
 echo -e "\t${CYAN}*-------------------*--------------------*${NC}"
 echo ""
 
